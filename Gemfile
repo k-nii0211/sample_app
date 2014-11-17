@@ -24,13 +24,15 @@ end
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
-  gem 'guard-rspec'
   gem 'spork-rails'
   gem 'guard-spork'
   gem 'childprocess'
 #  gem 'spring'
 #  gem 'spring-commands-rspec'
 #  gem 'rb-fsevent' if `uname` =~ /Darwin/
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'guard-cucumber'
   gem 'guard-bundler'
 end
 
