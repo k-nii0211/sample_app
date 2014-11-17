@@ -1,2 +1,4 @@
 --color
+--drb
+--profile
 --require spec_helper
