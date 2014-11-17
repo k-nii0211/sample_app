@@ -30,7 +30,7 @@ group :development, :test do
   gem 'childprocess'
 #  gem 'spring'
 #  gem 'spring-commands-rspec'
-  gem 'rb-fsevent' if `uname` =~ /Darwin/
+#  gem 'rb-fsevent' if `uname` =~ /Darwin/
   gem 'guard-bundler'
 end
 
